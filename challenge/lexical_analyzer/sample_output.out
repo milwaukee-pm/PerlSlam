@@ -1,0 +1,127 @@
+Reserved Word: require - 3
+String: "TVector"
+Reserved Word: class - 5
+Identifier: Vectorator
+Comment: #Manipulate Vectors
+Reserved Word: def - 4
+Identifier: initialize
+Operator: @
+Identifier: vecList
+Operator: =
+Identifier: Array
+Operator: .
+Identifier: new
+Reserved Word: end - 2
+Reserved Word: def - 4
+Identifier: run
+Identifier: x
+Operator: =
+Number: 0
+Identifier: x
+Operator: +=
+Number: 10
+Operator: ;
+Identifier: x
+Operator: -=
+Number: 12
+Operator: ;
+Identifier: x
+Operator: *=
+Number: 123
+Operator: ;
+Identifier: x
+Operator: /=
+Number: 345
+Reserved Word: if - 6
+Identifier: x
+Operator: <=
+Number: 10
+Reserved Word: or - 13
+Identifier: x
+Operator: >=
+Number: 12
+Reserved Word: and - 12
+Identifier: x
+Operator: !=
+Number: 100
+Reserved Word: or - 13
+Identifier: x
+Operator: ==
+Number: 88
+Identifier: puts
+Identifier: x
+Reserved Word: end - 2
+Reserved Word: for - 10
+Identifier: y
+Identifier: in
+Number: 0
+Operator: ..
+Number: 5
+Identifier: puts
+Identifier: y
+Operator: .
+Identifier: to_s
+Operator: +
+String: "Hello \"really\" ???"
+Reserved Word: end - 2
+Identifier: done
+Operator: =
+Identifier: false
+Reserved Word: while - 7
+Operator: !
+Identifier: done
+Identifier: str
+Operator: =
+Identifier: gets
+Identifier: ch
+Operator: =
+Identifier: str
+Operator: [
+Number: 0
+Operator: ,
+Number: 1
+Operator: ]
+Reserved Word: if - 6
+Identifier: ch
+Operator: ==
+Operator: '
+Identifier: A
+Operator: '
+Identifier: add
+Operator: (
+Identifier: str
+Operator: [
+Number: 2
+Operator: ,
+Identifier: str
+Operator: .
+Identifier: length
+Operator: -
+Number: 2
+Operator: ]
+Operator: )
+Identifier: done
+Operator: =
+Identifier: false
+Identifier: z
+Operator: =
+Number: 1
+Operator: ...
+Operator: .
+Number: 6
+Identifier: puts
+Bad String: "asasdfasfasdf
+Identifier: z
+Operator: |=
+Identifier: x
+Operator: +
+Number: 1
+Identifier: _befo_3re
+Operator: *
+Number: 3
+Identifier: b
+Reserved Word: end - 2
+Reserved Word: end - 2
+Reserved Word: end - 2
+Reserved Word: end - 2
+End Token: ?
