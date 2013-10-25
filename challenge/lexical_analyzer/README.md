@@ -43,7 +43,6 @@ The keywords and their integer representations are:
 
 -------------------------------------------------------------
 Your program must parse the given input defined in "input.in"
-
 Your program must match the given sample output defined in "sample_output.out"
 
 Note: Use of any version of Antlr is prohibited for this challenge!
