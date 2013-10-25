@@ -1,12 +1,18 @@
 Create a lexical analyzer that will parse a made up language. Each token is defined below:
 
  Identifier -> ( letter | _ ) { letter | digit | _ }
+
  Number -> digit { digit }
+
  String -> " { char_not_quotes | \" } "
+
  End_Token -> ?
+
  Operator -> nonwhitechar_notLetter_notDigit_not?not"not_not#  |
              two_char_op | three_char_op
+
  two_char_op -> += | -= | *= | /= | <= | >= | == | != | ~= | ^= | %= | &= | |= | ..
+
  three_char_op -> ...
 
 The End_Token is the termination character for the program.
