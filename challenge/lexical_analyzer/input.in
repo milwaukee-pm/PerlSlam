@@ -1,0 +1,33 @@
+require "TVector"
+
+class Vectorator   #Manipulate Vectors
+
+  def initialize
+    @vecList = Array.new
+  end
+
+  def run
+    x = 0
+    x += 10 ; x -= 12 ; x *= 123 ; x /= 345
+    if x <= 10 or x >= 12 and x != 100 or x == 88
+       puts x
+    end
+    for y in 0..5
+       puts y.to_s + "Hello \"really\" ???"
+    end
+    done = false
+    while !done
+      str = gets
+      ch = str[0,1]
+      if ch == 'A'
+        add( str[2, str.length - 2])
+        done = false
+        z = 1 ....6
+        puts "asasdfasfasdf
+        z |= x + 1_befo_3re*3b
+      end
+    end
+  end
+end
+?
+Your analyzer shouldn't go here!
