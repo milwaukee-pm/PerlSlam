@@ -1,5 +1,5 @@
 Create a lexical analyzer that will parse a made up language. Each token is defined below:
-
+```
  Identifier -> ( letter | _ ) { letter | digit | _ }
 
  Number -> digit { digit }
@@ -14,7 +14,7 @@ Create a lexical analyzer that will parse a made up language. Each token is defi
  two_char_op -> += | -= | *= | /= | <= | >= | == | != | ~= | ^= | %= | &= | |= | ..
 
  three_char_op -> ...
-
+```
 The End_Token is the termination character for the program.
 Wherever it appears (except in a string or comment), it signals 
 the end of the program.
