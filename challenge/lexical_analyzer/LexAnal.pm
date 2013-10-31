@@ -6,7 +6,7 @@ use warnings;
 
 unless ( caller() ) {
 	my $code = join( '', <> );
-	print run($code);
+	print join( "\n", @{ run($code) } ), "\n";
 }
 
 sub run {
